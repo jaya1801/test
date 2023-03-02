@@ -1,0 +1,8 @@
+Tasks,Success,Failed,Not Triggered
+Pipeline ,35,20,0
+Build,52,23,0
+Deploy,48,11,0
+Fossa,53,33,20
+Checkmarx,52,15,15
+Sonarqube,52,12,30
+Unit tests,53,22,18
