@@ -1,0 +1,81 @@
+import csv 
+import matplotlib.gridspec as gridspec
+
+from matplotlib.backends.backend_pdf import PdfPages
+
+import matplotlib.pyplot as plt
+
+x1=[] 
+
+y1=[]
+
+x2=[] 
+
+y2=[]
+
+with open("Data for pipeline graph.csv", "r") as csvfile:
+    reader_variable = csv.reader(csvfile, delimiter=",")
+    next(reader_variable, None)
+    for col in reader_variable:
+        x1.append(str(col[0]))
+        y1.append(int(col[1]))
+        y2.append(int(col[2]))
+
+
+with PdfPages("Data for pipeline graph.pdf")as pdf:
+        f, axarr = plt.subplots(1, 2, figsize=(17,9.5))
+        f.tight_layout(pad = 8)
+
+        plt.subplots_adjust(wspace=0.5)
+
+        axarr[0].plot(x1,y1, label='No of Successful runs', color='#228B22',linestyle='dashed',
+            marker='o')  
+
+        axarr[0].plot(x1,y2, label='No of Failed runs', color='#00008B', linestyle='dashed',
+            marker='o')
+
+        axarr[0].set_xlabel("Months",fontdict={'fontsize':14,'fontweight':5,'color':'Black'})
+
+        axarr[0].set_ylabel("Pipeline",fontdict={'fontsize':14,'fontweight':6,'color':'Black'})
+        axarr[0].set_xticks(ticks = range(0,len(x1)),labels = x1, rotation = 'vertical')
+        axarr[0].legend()
+        
+
+
+        x1=[] 
+
+        y1=[]
+
+        y2=[]
+            
+        y3=[]
+
+        with open("pipeline-success-failure-metrics.csv", "r") as csvfile:
+            reader_variable = csv.reader(csvfile, delimiter=",")
+            next(reader_variable, None)
+            for row in reader_variable:
+                x1.append(str(row[0]))
+                y1.append(int(row[1]))
+                y2.append(int(row[2]))
+                y3.append(int(row[3]))
+                
+        x_axis = [i for i in range(len(x1))]
+        x_axis1 = [i+0.3 for i in x_axis]
+        x_axis2 = [i-0.3 for i in x_axis]
+
+        axarr[1].bar(x_axis,y1,0.3,label='Success',color="#228B22")
+        axarr[1].bar(x_axis1,y2,0.3,label="Failed",color="#FF6103")
+        axarr[1].bar(x_axis2,y3,0.3,label='Not Triggered',color="#A9A9A9")
+
+
+        axarr[1].set_xticks(ticks = range(0,len(x1)),labels = x1, rotation = 'vertical')
+
+        axarr[1].set_xlabel("Tasks",fontdict={'fontsize':14,'fontweight':5,'color':'Black'})
+
+        axarr[1].set_ylabel("Data",fontdict={'fontsize':14,'fontweight':6,'color':'Black'})
+
+        axarr[1].legend()
+        
+
+        pdf.savefig()
+        plt.close(f)
