@@ -1,0 +1,630 @@
+{
+  "summary": {
+    "AppId": 457896,
+    "Pipeline name": "Spring pipeline",
+    "Pipeline Success": 50,
+    "Pipeline Failure": 10,
+    "Pipeline Total Run": 60,
+    "Build Success": 55,
+    "Build Failure": 5,
+    "Build Skipped": 0,
+    "Junit Success": 57,
+    "Junit Failure": 2,
+    "Junit Skipped": 1,
+    "Sonarqube Success": 45,
+    "Sonarqube Failure": 10,
+    "Sonarqube Skipped": 5,
+    "Checkmarx Success": 50,
+    "Checkmarx Failure": 8,
+    "Checkmarx Skipped": 2,
+    "FOSSA Success": 40,
+    "FOSSA Failed": 10,
+    "FOSSA Skipped": 10,
+    "Deployment Success": 51,
+    "Deployment Failed": 9,
+    "Deployment Skipped": 0,
+    "Deployment Success OpenShift failed": 10
+  },
+  "details": [
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-05 17:45:30.005",
+        "Pipeline run duration": "15:25"
+      },
+      "Build": {
+        "Build run duration": "05:02"
+      },
+      "Junit Test cases": {
+        "Success": 45,
+        "Failed": 20,
+        "Total": 75
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "10:02",
+        "Bug": {
+          "Blocker": 10,
+          "Critical": 7,
+          "Major": 45,
+          "Minor": 77
+        },
+        "Vulnerability": {
+          "Blocker": 5,
+          "Critical": 2,
+          "Major": 15,
+          "Minor": 25
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 37,
+          "Major": 11,
+          "Minor": 28
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "10:02",
+        "High": 60,
+        "Medium": 25,
+        "Low": 30,
+        "information": 45
+      },
+      "Fossa": {
+        "Fossa Duaration": "15:07",
+        "Vulnerability": {
+          "total": 75,
+          "unknown": 30,
+          "critical": 15,
+          "high": 10,
+          "medium": 10,
+          "low": 10
+        },
+        "licensing": 10,
+        "quality": 10,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:45",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-06 19:45:30.005",
+        "Pipeline run duration": "14:15"
+      },
+      "Build": {
+        "Build run duration": "04:52"
+      },
+      "Junit Test cases": {
+        "Success": 45,
+        "Failed": 20,
+        "Total": 75
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "09:02",
+        "Bug": {
+          "Blocker": 8,
+          "Critical": 6,
+          "Major": 36,
+          "Minor": 65
+        },
+        "Vulnerability": {
+          "Blocker": 3,
+          "Critical": 2,
+          "Major": 9,
+          "Minor": 21
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 31,
+          "Major": 9,
+          "Minor": 23
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:52",
+        "High": 58,
+        "Medium": 22,
+        "Low": 27,
+        "information": 41
+      },
+      "Fossa": {
+        "Fossa Duaration": "14:07",
+        "Vulnerability": {
+          "total": 65,
+          "unknown": 25,
+          "critical": 12,
+          "high": 10,
+          "medium": 10,
+          "low": 10
+        },
+        "licensing": 20,
+        "quality": 25,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:32",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-10 17:45:30.005",
+        "Pipeline run duration": "14:15"
+      },
+      "Build": {
+        "Build run duration": "04:49"
+      },
+      "Junit Test cases": {
+        "Success": 65,
+        "Failed": 20,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "08:53",
+        "Bug": {
+          "Blocker": 6,
+          "Critical": 4,
+          "Major": 31,
+          "Minor": 59
+        },
+        "Vulnerability": {
+          "Blocker": 2,
+          "Critical": 2,
+          "Major": 8,
+          "Minor": 19
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 28,
+          "Major": 8,
+          "Minor": 21
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:20",
+        "High": 55,
+        "Medium": 22,
+        "Low": 25,
+        "information": 38
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:07",
+        "Vulnerability": {
+          "total": 61,
+          "unknown": 24,
+          "critical": 10,
+          "high": 9,
+          "medium": 7,
+          "low": 8
+        },
+        "licensing": 20,
+        "quality": 20,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:18",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-13 17:45:30.005",
+        "Pipeline run duration": "14:15"
+      },
+      "Build": {
+        "Build run duration": "04:41"
+      },
+      "Junit Test cases": {
+        "Success": 75,
+        "Failed": 10,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "09:05",
+        "Bug": {
+          "Blocker": 10,
+          "Critical": 14,
+          "Major": 25,
+          "Minor": 60
+        },
+        "Vulnerability": {
+          "Blocker": 12,
+          "Critical": 10,
+          "Major": 18,
+          "Minor": 21
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 28,
+          "Major": 8,
+          "Minor": 21
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:10",
+        "High": 52,
+        "Medium": 20,
+        "Low": 23,
+        "information": 35
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:07",
+        "Vulnerability": {
+          "total": 59,
+          "unknown": 22,
+          "critical": 15,
+          "high": 19,
+          "medium": 17,
+          "low": 8
+        },
+        "licensing": 22,
+        "quality": 24,
+        "risk": 3
+      },
+      "Deployment": {
+        "Deployment duration": "04:28",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-17 15:25:21.005",
+        "Pipeline run duration": "12:15"
+      },
+      "Build": {
+        "Build run duration": "05:11"
+      },
+      "Junit Test cases": {
+        "Success": 80,
+        "Failed": 5,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "08:05",
+        "Bug": {
+          "Blocker": 8,
+          "Critical": 6,
+          "Major": 15,
+          "Minor": 35
+        },
+        "Vulnerability": {
+          "Blocker": 10,
+          "Critical": 10,
+          "Major": 15,
+          "Minor": 18
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 23,
+          "Major": 6,
+          "Minor": 19
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:20",
+        "High": 45,
+        "Medium": 18,
+        "Low": 20,
+        "information": 25
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:35",
+        "Vulnerability": {
+          "total": 55,
+          "unknown": 20,
+          "critical": 11,
+          "high": 16,
+          "medium": 14,
+          "low": 6
+        },
+        "licensing": 19,
+        "quality": 21,
+        "risk": 1
+      },
+      "Deployment": {
+        "Deployment duration": "05:05",
+        "Deployment Status in OpenShift": "Failed"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-19 17:45:30.005",
+        "Pipeline run duration": "15:25"
+      },
+      "Build": {
+        "Build run duration": "05:02"
+      },
+      "Junit Test cases": {
+        "Success": 45,
+        "Failed": 20,
+        "Total": 75
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "10:02",
+        "Bug": {
+          "Blocker": 10,
+          "Critical": 7,
+          "Major": 45,
+          "Minor": 77
+        },
+        "Vulnerability": {
+          "Blocker": 5,
+          "Critical": 2,
+          "Major": 15,
+          "Minor": 25
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 37,
+          "Major": 11,
+          "Minor": 28
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "10:02",
+        "High": 60,
+        "Medium": 25,
+        "Low": 30,
+        "information": 45
+      },
+      "Fossa": {
+        "Fossa Duaration": "15:07",
+        "Vulnerability": {
+          "total": 75,
+          "unknown": 30,
+          "critical": 15,
+          "high": 10,
+          "medium": 10,
+          "low": 10
+        },
+        "licensing": 10,
+        "quality": 10,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:45",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-23 19:45:30.005",
+        "Pipeline run duration": "14:15"
+      },
+      "Build": {
+        "Build run duration": "04:52"
+      },
+      "Junit Test cases": {
+        "Success": 45,
+        "Failed": 20,
+        "Total": 75
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "09:02",
+        "Bug": {
+          "Blocker": 8,
+          "Critical": 6,
+          "Major": 36,
+          "Minor": 65
+        },
+        "Vulnerability": {
+          "Blocker": 3,
+          "Critical": 2,
+          "Major": 9,
+          "Minor": 21
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 31,
+          "Major": 9,
+          "Minor": 23
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:52",
+        "High": 58,
+        "Medium": 22,
+        "Low": 27,
+        "information": 41
+      },
+      "Fossa": {
+        "Fossa Duaration": "14:07",
+        "Vulnerability": {
+          "total": 65,
+          "unknown": 25,
+          "critical": 12,
+          "high": 10,
+          "medium": 10,
+          "low": 10
+        },
+        "licensing": 20,
+        "quality": 25,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:32",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-25 17:45:30.005",
+        "Pipeline run duration": "14:15"
+      },
+      "Build": {
+        "Build run duration": "04:49"
+      },
+      "Junit Test cases": {
+        "Success": 80,
+        "Failed": 5,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "08:53",
+        "Bug": {
+          "Blocker": 1,
+          "Critical": 0,
+          "Major": 10,
+          "Minor": 7
+        },
+        "Vulnerability": {
+          "Blocker": 2,
+          "Critical": 2,
+          "Major": 2,
+          "Minor": 1
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 2,
+          "Minor": 0
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:20",
+        "High": 10,
+        "Medium": 2,
+        "Low": 5,
+        "information": 8
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:07",
+        "Vulnerability": {
+          "total": 5,
+          "unknown": 1,
+          "critical": 2,
+          "high": 1,
+          "medium": 1,
+          "low": 0
+        },
+        "licensing": 9,
+        "quality": 8,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:18",
+        "Deployment Status in OpenShift": "Failed"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-27 17:45:30.005",
+        "Pipeline run duration": "13:11"
+      },
+      "Build": {
+        "Build run duration": "04:41"
+      },
+      "Junit Test cases": {
+        "Success": 82,
+        "Failed": 3,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "09:05",
+        "Bug": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 0,
+          "Minor": 0
+        },
+        "Vulnerability": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 2,
+          "Minor": 1
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 1,
+          "Major": 2,
+          "Minor": 5
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:10",
+        "High": 1,
+        "Medium": 0,
+        "Low": 1,
+        "information": 2
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:07",
+        "Vulnerability": {
+          "total": 5,
+          "unknown": 0,
+          "critical": 1,
+          "high": 3,
+          "medium": 6,
+          "low": 2
+        },
+        "licensing": 2,
+        "quality": 1,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "04:28",
+        "Deployment Status in OpenShift": "Success"
+      }
+    },
+    {
+      "Pipeline": {
+        "Pipeline Run TimeStamp": "2023-01-30 18:25:21.005",
+        "Pipeline run duration": "12:15"
+      },
+      "Build": {
+        "Build run duration": "05:11"
+      },
+      "Junit Test cases": {
+        "Success": 85,
+        "Failed": 0,
+        "Total": 85
+      },
+      "Sonarqube": {
+        "Sonarqube duration": "08:05",
+        "Bug": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 0,
+          "Minor": 2
+        },
+        "Vulnerability": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 0,
+          "Minor": 1
+        },
+        "code_smell": {
+          "Blocker": 0,
+          "Critical": 0,
+          "Major": 0,
+          "Minor": 6
+        }
+      },
+      "Checkmarx": {
+        "checkmarx duration": "09:20",
+        "High": 0,
+        "Medium": 0,
+        "Low": 2,
+        "information": 0
+      },
+      "Fossa": {
+        "Fossa Duaration": "13:35",
+        "Vulnerability": {
+          "total": 5,
+          "unknown": 0,
+          "critical": 0,
+          "high": 3,
+          "medium": 2,
+          "low": 0
+        },
+        "licensing": 3,
+        "quality": 0,
+        "risk": 0
+      },
+      "Deployment": {
+        "Deployment duration": "05:05",
+        "Deployment Status in OpenShift": "Success"
+      }
+    }
+  ]
+}
